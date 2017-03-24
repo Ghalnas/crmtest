@@ -1,0 +1,26 @@
+<table class="col-xs-12 text-center table table-hover" ng-controller="tableController">
+    <thead>
+    <tr>
+        <td>
+            Nom
+        </td>
+        <td>
+            Prénom
+        </td>
+        <td>
+            Tel
+        </td>
+        <td>
+            Mail
+        </td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="user in users" ui-sref="detailstate({userId: user.id})">
+        <td>{{user.lastname}}</td>
+        <td>{{user.firstname}}</td>
+        <td>{{user.phone}}</td>
+        <td>{{user.email}}</td>
+    </tr>
+    </tbody>
+</table>

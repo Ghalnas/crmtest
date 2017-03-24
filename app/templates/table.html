@@ -1,0 +1,26 @@
+<table ng-controller="tableController">
+    <thead>
+        <tr>
+            <td>
+                Nom
+            </td>
+            <td>
+                Prénom
+            </td>
+            <td>
+                Tel
+            </td>
+            <td>
+                Mail
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="user in users">
+            <td>{{user.lastname}}</td>
+            <td>{{user.firstname}}</td>
+            <td>{{user.tel}}</td>
+            <td>{{user.mail}}</td>
+        </tr>
+    </tbody>
+</table>

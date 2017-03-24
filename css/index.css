@@ -1,0 +1,39 @@
+.table>tbody>tr:nth-of-type(even) {
+    background: white;
+}
+
+.table>tbody>tr:nth-of-type(odd) {
+    background: #b2e4ff;
+}
+
+.table>tbody>tr:hover:nth-of-type(even) {
+    background: #efefef;
+}
+
+.table>tbody>tr:hover:nth-of-type(odd) {
+    background: #aad5ff;
+}
+
+
+.table>thead>tr {
+    font-weight:bold;
+    background: white;
+    border-bottom: 2px solid black;
+}
+
+.table>tbody>tr {
+    cursor: pointer;
+}
+
+.list-group .list-group-item .row-action-primary i.call {
+    background:#27ce35;
+}
+
+.list-group .list-group-item .row-action-primary i.mail {
+    background:#d14836;
+}
+
+.table {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
